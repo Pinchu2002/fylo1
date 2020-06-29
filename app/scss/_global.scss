@@ -1,4 +1,80 @@
-* {
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    background-color: $verydarkblue;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    height: 420px;
+    background-image: url("/images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 380px;  
+}
+
+.images{
+    position: relative;
+    margin: 0 280px;
+    background-color: $darkblue;
+    border: 1px solid $darkblue;
+    border-radius: 10px 90px 10px 10px;
+    padding: 30px 30px 0;    
+    width: 350px;
+    bottom: 68px;    
+}
+
+.logo{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.img{
+    background-color: $verydarkblue;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+#doc{
+    padding: 8px 10px 8px;
+}
+
+#fold{
+    padding: 12px 8px 12px;
+}
+
+#up{
+    padding: 16px 8px 16px;
+}
+
+.storage{
+    background-color: $darkblue;
+    border: 1px solid $darkblue;
+    border-radius: 10px;
+    height: 150px;
+    width: 450px;
+    position: relative;
+    left: 670px;
+    bottom: 218px;
+}
+
+.info{
+    color: rgba($color: white, $alpha: 0.6);
+    padding: 30px 25px 8px;
+}
+
+#used_storage{
+    color: white;
 }
