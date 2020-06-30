@@ -29,10 +29,23 @@
     </div>
   </div>
   <div class="storage">
-      <div class="info">You've used <strong><span id="used_storage">GB</span></strong> of your storage</div>
-  </div>
+      <div class="info">You've used <strong><span id="used_storage"></span> GB</strong> of your storage</div>
+      <div class="bar"> 
+        <input type="range" min="0" max="1000" value="815" id="myrange">
+ 
+        <div id="progressbar"></div>
+      </div>
+      <div class="start">0 GB</div>
+      <div class="end">1000 GB</div>
+      <div class="Popup"> 
+        <p> <span id="value"></span> GB LEFT </p>
         
-
+        <div class="triangle"></div>
+      </div>
+    
+    </div>
+        
+  <script src="/app/js/script.js"></script>
 <!--
   You’ve used 815 GB of your storage
 
